@@ -1,0 +1,28 @@
+{
+  "_howto": "Edit this file to add, update or close projects. status must be one of: open, active, completed. Set draft to false once a project is confirmed. Dates use YYYY-MM.",
+  "updated": "2026-10",
+  "projects": [],
+  "_example": {
+    "id": "short-unique-id",
+    "status": "open",
+    "draft": false,
+    "title": "Project title",
+    "area": "Low-Resource NLP",
+    "summary": "One or two sentences.",
+    "question": "The main research question?",
+    "mentors": [
+      "Prof. Name"
+    ],
+    "skills": [
+      "Python"
+    ],
+    "commitment": "6 hrs / week",
+    "duration": "4 months",
+    "team": "2–3 students",
+    "outputs": [
+      "Paper"
+    ],
+    "opened": "2026-11",
+    "links": []
+  }
+}

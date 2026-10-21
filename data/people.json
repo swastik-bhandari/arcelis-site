@@ -1,0 +1,54 @@
+{
+  "_howto": "Add one entry per person. group must match an id in groups. photo is optional (put the image in assets/people/). Only list people who have agreed to be listed. Optional: research (list of research interests, shown highlighted) and points (short credential lines).",
+  "groups": [
+    {
+      "id": "founder",
+      "label": "Founder"
+    },
+    {
+      "id": "advisors",
+      "label": "Faculty advisors & mentors",
+      "invite": "Professors and researchers who mentor Arcelis projects are listed here once they have agreed to be named."
+    },
+    {
+      "id": "researchers",
+      "label": "Researchers"
+    },
+    {
+      "id": "students",
+      "label": "Student researchers"
+    },
+    {
+      "id": "alumni",
+      "label": "Alumni"
+    }
+  ],
+  "people": [
+    {
+      "name": "Swastik Bhandari",
+      "group": "founder",
+      "role": "Founder & Research Lead",
+      "photo": "assets/people/swastik-bhandari.jpg",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/swastik-bhandari"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://linkedin.com/in/swastik-bhandari"
+        }
+      ],
+      "research": [
+        "Efficient inference",
+        "HPC",
+        "Low-resource NLP"
+      ],
+      "points": [
+        "B.E. Computer Engineering @ Kathmandu University",
+        "Research Intern @ AI4Bharat, IIT Madras",
+        "IN-SPaN Fellow @ IIT Madras"
+      ]
+    }
+  ]
+}
